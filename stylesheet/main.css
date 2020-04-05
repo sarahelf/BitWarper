@@ -1,0 +1,365 @@
+/* ................... Body ......................*/
+
+* body html{
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  padding:0 0 0 0;
+}
+/* ...................Navagition ......................*/
+.navbar {
+  background-color: #ffff;
+  position:flex;
+  margin-top:0px;
+  padding-top:1px;
+  text-align: center;
+}
+ .navbar h1{
+  text-align: center;
+  font-family: serif,didot;
+  font-size: 70px;
+  font-weight: normal;
+  text-shadow: 1px 3px 3px #1D1D1B;
+}
+
+.navbar a {
+  padding: 80px;
+  text-decoration: none;
+  color: black; 
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+/* Desktop */
+@media all and (min-width:768px) {.navbar h1 { font-size: 70px; }}
+/* Mobiles */
+@media all and (max-width:767px) {.navbar h1{ font-size:38px; padding-top: 0px;}}
+/* Desktop */
+@media all and (min-width:768px) {.navbar a  { font-size: 35px; }}
+/* Mobiles */
+@media all and (max-width:767px) {.navbar a { font-size:20px; padding-top: 0px;}}
+/* Desktop */
+@media all and (min-width:768px) {.navbar {  height: 300px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.navbar{  height: 200px;}}
+
+/* ..................End Navagition ......................*/
+/* .........................Main .........................*/
+
+.img-wrapper, { 
+  width: 100%;
+  height: auto;
+  position:relative;
+}
+
+.img-wrapper h2{
+  font-size: 100px;
+  position: flex;
+  position: absolute;
+  color:#ffff;
+  text-shadow: 2px 5px 5px #1D1D1B;
+  font-family: serif,didot;
+}
+.img-wrapper p{
+  font-size: 40px;
+  position: flex;
+  position: absolute;
+  color:#ffff;
+  text-shadow: 2px 5px 5px #1D1D1B;
+  font-family: serif,didot;
+
+}
+/* Desktop */
+@media all and (min-width:768px) {.img-wrapper h2 { font-size: 100px;  padding-right: 10%; left: 50%;  bottom: 0%;padding-bottom: 0px; top:75%;}}
+/* Mobiles */
+@media all and (max-width:767px) {.img-wrapper h2 { font-size:24px;   left: 52%; bottom: 53%;}}
+/* Desktop */
+@media all and (min-width:768px) {.img-wrapper p { font-size: 50px;   left: 56%; bottom: 0%; padding-right: 0%; padding-bottom: 0%;top:95%;}}
+/* Mobiles */
+@media all and (max-width:767px) {.img-wrapper p{ font-size:20px; left: 52%; bottom: 35%; padding-bottom: 30%;padding-top: 0px;}}
+
+/* ........................End Main .........................*/
+/* .........................Section .........................*/
+
+.Whatweoffer{
+  width: 100%;
+  height: 300px;
+  padding-top: 0px;
+  padding-bottom: 0px; 
+  text-align: center; 
+  font-family: serif,didot; 
+  background-color: #ffff; 
+}
+
+.Whatweoffer h3{ 
+  font-weight: normal;
+  font-size: 70px; 
+}
+
+.Whatweoffer p{
+  font-style: italic;
+  font-size: 35px; 
+}
+
+/* Desktop */
+@media all and (min-width:768px) {.Whatweoffer h3 { font-size: 70px;  padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.Whatweoffer h3 { font-size:16px;   left: 52%; bottom: 0px;}}
+/* Desktop */
+@media all and (min-width:768px) {.Whatweoffer p { font-size: 40px;  padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.Whatweoffer p{ font-size:14px; padding-top: 0px;}}
+
+@media all and (min-width:768px) {.Whatweoffer { height: 300px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.Whatweoffer{  height: 100px;}}
+
+
+/* .........................End Section .........................*/
+/* ...........................Section ...........................*/
+
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: auto; 
+  display: flex;
+  position: relative;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Mobiles */
+@media all and (max-width:767px) {.column { padding-bottom:10px;}}
+/* Mobiles */
+@media screen and (max-width: 768px) {.column {width: 100%;}}
+
+h4{
+  position: absolute;
+  font-family: serif,didot; 
+  color: #ffff;
+  font-style: normal;
+  text-decoration: none;
+  padding-left:8%;
+  padding-top: 20%
+
+}
+/* Desktop */
+@media all and (min-width:768px) {.one { font-size: 50px;text-decoration: none; text-align: center;color: #ffff; padding-bottom: 0px; padding-top: 10%}}
+/* Mobiles */
+@media all and (max-width:767px) { .one { font-size:30px; text-decoration: none; text-align: center; color: #ffff;  padding-bottom: 10%; }}
+/* Desktop */
+@media all and (min-width:768px) {.two{ font-size: 50px; text-decoration: none;text-align: center;color: #ffff; padding-bottom: 0px; padding-top: 10%}}
+/* Mobiles */
+@media all and (max-width:767px) { .two{ font-size:30px; text-decoration: none; text-align: center; color: #ffff;  padding-bottom: 10%; }}
+
+/* .........................End Section .........................*/
+/* ...........................Section ...........................*/
+.Blogposts{
+  width: 100%;
+  height: 300px;
+  padding-top: 0px;
+  padding-bottom: 0px; 
+  text-align: center; 
+  font-family: serif,didot; 
+  background-color: #ffff; 
+  position: relative;
+}
+
+.Blogposts-img{
+  width: 100%;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px; 
+  text-align: center; 
+  font-family: serif,didot; 
+  background-color: #ffff; 
+  position: relative;
+}
+
+.Blogposts h5{ 
+  font-weight: normal;
+  font-size: 70px; 
+}
+
+.Blogposts p{
+  font-style: italic;
+  font-size: 35px; 
+  padding-bottom: 20px;
+}
+
+/* Desktop */
+@media all and (min-width:768px) {.Blogposts h5 { font-size: 70px;  padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.Blogposts h5 { font-size:16px;   left: 52%; bottom: 0px;}}
+/* Desktop */
+@media all and (min-width:768px) {.Blogposts p { font-size: 40px;  padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.Blogposts p{ font-size:14px; padding-top: 0px;}}
+
+@media all and (min-width:768px) {.Blogposts { height: 300px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.Blogposts{  height: 100px;}}
+
+/* ...........................End Section ...........................*/
+/* ..............................Button .............................*/
+
+
+
+.button-desktop{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 40px;
+  font-family: serif,didot;
+  padding: 30px 80px;
+  cursor: pointer;
+  margin-left: 55%;
+  left:0%;
+  top:70%;
+  text-align: center;
+  transition: 0.6s;
+  border-radius: 60px;
+  text-decoration: none;
+}
+
+.button-desktop a{ text-decoration: none; color: white;}
+.button-desktop:hover {background-color: black;}
+
+.button-mobile {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  font-family: serif,didot;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  margin-left: 60%;
+  margin-bottom:10px;
+  left:0%;
+  bottom: 0px;
+  text-align: center;
+  transition: 0.6s;
+  border-radius: 60px;
+  text-decoration: none;
+ 
+}
+
+.button-mobile a{text-decoration: none;color: white;}
+.button-mobile :hover {background-color: black;}
+.button-mobile {display:none; }
+
+@media (max-width: 640px) and (min-width: 320px){
+ .button-desktop { display:none;}
+ .button-mobile{ display:block;}
+}
+
+/* ............................End Button ...........................*/
+/* ..............................Contact.............................*/
+
+.contact{
+  text-align: center;
+  font-family: serif,didot;
+}
+
+.contact h6{
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.contact p{
+  font-size: 40px;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+/* Desktop */
+@media all and (min-width:768px) {.contact h6 { font-size: 70px;  padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.contact h6 { font-size:16px;   left: 0%; bottom: 0px;}}
+/* Desktop */
+@media all and (min-width:768px) {.contact p { font-size: 40px;  padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.contact p{ font-size:14px; padding-top: 0px;}}
+
+/* .............................End Contact.............................*/
+/* .............................Section Map.............................*/
+
+
+.header{
+  width: 100%;
+  height:auto;
+  padding: 0px;
+}
+
+.section-full{
+  widows:auto;
+  height: 500px;
+  margin: 20px;
+}
+
+.section-mobile{
+  widows:auto;
+  height: 200px;
+  margin: 20px;
+}
+.section-mobile{ display:none;}
+
+@media (max-width: 640px) and (min-width: 320px){
+.section-full { display:none;}
+.section-mobile{ display:block;}
+}
+
+/* ............................End Section Map.............................*/
+/* .................................Footer.................................*/
+
+
+.solid {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.footer h6{
+  font-family: serif,didot;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer p{
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* Desktop */
+@media all and (min-width:768px) {.footer h6 { font-size: 20px;  padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.footer h6 { font-size:16px;   left: 0%; bottom: 0px;}}
+/* Desktop */
+@media all and (min-width:768px) {.footer p { font-size: 20px;   padding-bottom: 0px;}}
+/* Mobiles */
+@media all and (max-width:767px) {.footer p{ font-size:14px; padding-top: 0px;}}
+
+
+
+
+
+
